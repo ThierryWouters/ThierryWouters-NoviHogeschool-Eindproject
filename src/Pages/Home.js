@@ -3,8 +3,7 @@ import './Pages Stylesheets/Home.css';
 import Banner from '../Assets/World of Watches Banner 4.jpg';
 import SliderShow from '../Components/SliderShow';
 
-import WatchVideo from '../Assets/World of Watches movie.mp4';
-
+import WatchVideo from '../Assets/Watches Movie Final.mp4';
 import Datejust from '../Assets/datejust rg.jpg';
 import DayDate from '../Assets/Rolex-day-date-40-green.jpg';
 import Daytona from '../Assets/daytona.jpg';
