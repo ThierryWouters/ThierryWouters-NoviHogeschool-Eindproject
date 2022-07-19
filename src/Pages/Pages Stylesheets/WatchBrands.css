@@ -1,0 +1,18 @@
+main.watch-brands-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header.watch-brands-page {
+    font-family: "AppleGothic";
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+

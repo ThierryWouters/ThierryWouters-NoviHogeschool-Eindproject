@@ -1,0 +1,28 @@
+.watch-brand-container {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 15px;
+
+}
+
+.watch-brand-container img {
+    width: 250px;
+}
+
+.watch-brand-container h2 {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

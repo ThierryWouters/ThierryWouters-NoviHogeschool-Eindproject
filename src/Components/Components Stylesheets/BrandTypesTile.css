@@ -1,0 +1,37 @@
+.brand-type-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-type-container {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.brand-type-container img {
+    width: auto;
+    height: 180px;
+    margin-top: 25px;
+}
+
+.brand-type-container h6 {
+    margin-top: 25px;
+    color: black;
+    font-family: AppleGothic;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
