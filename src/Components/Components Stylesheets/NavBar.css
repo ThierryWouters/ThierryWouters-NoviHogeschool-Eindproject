@@ -1,0 +1,59 @@
+button {
+    border-radius: 4px;
+    border: none;
+    padding: 8px 16px;
+    background-color: #B17505;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: AppleGothic;
+    margin: 5px;
+}
+
+button + button {
+    margin-left: 8px;
+}
+
+nav {
+    background-color: #34324F;
+    border-radius: 16px;
+    color: white;
+    display: flex;
+    padding: 0 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h5,
+h5:visited,
+h5:active {
+    font-family: AppleGothic;
+    color: aliceblue;
+    font-size: larger;
+    padding: 12px;
+}
+
+.link-page:hover {
+    background-color: aliceblue;
+    color: #34324F;
+    border-radius: 18px;
+    padding: 12px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+
+}
+
+.logo-container img {
+    width: 50px;
+    margin-right: 4px;
+}
+
+/*
+a:hover {
+    border-radius: 8px;
+    padding: 0 24px;
+    background-color: #3F27FE;
+}*/

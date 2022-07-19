@@ -1,0 +1,17 @@
+header.rolex-page {
+    font-family: "AppleGothic";
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main.rolex-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
