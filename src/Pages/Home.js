@@ -15,6 +15,8 @@ import TudorBlue from '../Assets/tudor blue 2.webp';
 import AudemarsPiguet from '../Assets/ap 15202 2.jpg';
 import DayDateSilver from '../Assets/day date silver.webp';
 
+import GetWatchData from "../Components/ApiCall";
+
 function Home() {
     return (
         <>

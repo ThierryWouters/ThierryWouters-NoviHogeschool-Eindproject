@@ -1,6 +1,8 @@
 import React from "react";
 import './Components Stylesheets/WatchModelsTile.css';
 
+
+
 function WatchModels(props) {
     return (
         <div className="model-type-container">
