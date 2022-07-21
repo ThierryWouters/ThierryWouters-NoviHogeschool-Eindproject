@@ -32,7 +32,7 @@ function AuthContextProvider({children}) {
         <AuthContext.Provider value={data}>
             {children}
         </AuthContext.Provider>
-    )
+    );
 }
 
 export default AuthContextProvider;
