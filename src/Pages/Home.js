@@ -3,7 +3,6 @@ import './Pages Stylesheets/Home.css';
 import Banner from '../Assets/World of Watches Banner 4.jpg';
 import SliderShow from '../Components/SliderShow';
 
-import WatchVideo from '../Assets/Watches Movie Final.mp4';
 import Datejust from '../Assets/datejust rg.jpg';
 import DayDate from '../Assets/Rolex-day-date-40-green.jpg';
 import Daytona from '../Assets/daytona.jpg';
@@ -14,16 +13,13 @@ import Patek5711RG from '../Assets/patek philippe rg 2.jpg';
 import TudorBlue from '../Assets/tudor blue 2.webp';
 import AudemarsPiguet from '../Assets/ap 15202 2.jpg';
 import DayDateSilver from '../Assets/day date silver.webp';
-
-import GetWatchData from "../Components/ApiCall";
+import VideoPlayer from "../Components/VideoPlayer";
 
 function Home() {
     return (
         <>
             <header className="home-page">
-                <video className="video-player" autoPlay loop>
-                     <source src={WatchVideo} type="video/mp4"/>
-                </video>
+                <VideoPlayer/>
 
                 <h4>World of Watches</h4>
             </header>
