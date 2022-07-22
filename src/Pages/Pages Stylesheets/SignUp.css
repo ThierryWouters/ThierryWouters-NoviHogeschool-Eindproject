@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h4 {
+    font-family: AppleGothic;
+    font-size: 30px;
+}

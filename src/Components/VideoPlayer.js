@@ -1,8 +1,7 @@
 import React, {useState} from "react";
 import WatchVideo from '../Assets/Watches Movie Final.mp4';
-import '../Components/Components Stylesheets/VideoPlayer.css';
-
 import Speaker from '../Assets/speaker-icon.png'
+import '../Components/Components Stylesheets/VideoPlayer.css';
 
 function VideoPlayer() {
 
