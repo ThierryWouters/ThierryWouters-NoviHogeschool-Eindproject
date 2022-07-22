@@ -1,0 +1,101 @@
+.signup-form section {
+    max-width: 600px;
+    min-height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px 15px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 10px;
+}
+
+a, a:visited {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-form input[type="text"],
+input[type="password"],
+button,
+textarea {
+    font-family: AppleGothic;
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.signup-form label,
+button {
+    font-family: AppleGothic;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.signup-form h1 {
+    font-family: AppleGothic;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.signup-form button {
+    padding: 10px;
+}
+
+.instructions {
+    font-family: AppleGothic;
+    font-size: 10px;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 10px;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 10px;
+}
+
+.invalid {
+    color: red;
+    margin-left: 10px;
+}
+
+.errormessage {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.line {
+    display: inline-block;
+}
